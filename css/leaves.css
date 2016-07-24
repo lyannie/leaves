@@ -1,0 +1,110 @@
+/*
+ *leaves Version0.1
+ *Copyright 2016 Annie&Zenx
+ */
+
+/* ========================================================================
+   Leaves varibles
+   ======================================================================== */
+/**
+ * Table of Contents:
+ *
+ * 1. Colors
+ *
+ *
+ */
+
+/* 1.Colors
+   ======================================================================= */	
+
+/*
+ * red background
+ */
+.red {
+	background-color: #F44336 !important;
+}
+.red.lighten-1 {
+	background-color: #EF5350 !important;
+}
+.red.lighten-2 {
+	background-color: #E57373 !important;
+}
+.red.lighten-3 {
+	background-color: #EF9A9A !important;
+}
+.red.lighten-4 {
+	background-color: #FFCDD2 !important;
+}
+.red.lighten-5 {
+	background-color: #FFEBEE !important;
+}
+.red.darken-1 {
+	background-color: #E53935 !important;
+}
+.red.darken-2 {
+	background-color: #D32F2F !important;
+}
+.red.darken-3 {
+	background-color: #C62828 !important;
+}
+.red.darken-4 {
+	background-color: #B71C1C !important;
+}
+.red.accent-1 {
+  background-color: #FF8A80 !important;
+}
+.red.accent-2 {
+  background-color: #FF5252 !important;
+}
+.red.accent-3 {
+  background-color: #FF1744 !important;
+}
+.red.accent-4 {
+  background-color: #D50000 !important;
+}
+/*
+ * red text
+ */
+.red-text {
+  color: #F44336 !important;
+}
+.red-text.text-lighten-1 {
+  color: #EF5350 !important;
+}
+.red-text.text-lighten-2 {
+  color: #E57373 !important;
+}
+.red-text.text-lighten-3 {
+  color: #EF9A9A !important;
+}
+.red-text.text-lighten-4 {
+  color: #FFCDD2 !important;
+}
+.red-text.text-lighten-5 {
+  color: #FFEBEE !important;
+}
+.red-text.text-darken-1 {
+  color: #E53935 !important;
+}
+.red-text.text-darken-2 {
+  color: #D32F2F !important;
+}
+.red-text.text-darken-3 {
+  color: #C62828 !important;
+}
+.red-text.text-darken-4 {
+  color: #B71C1C !important;
+}
+.red-text.text-accent-1 {
+  color: #FF8A80 !important;
+}
+.red-text.text-accent-2 {
+  color: #FF5252 !important;
+}
+.red-text.text-accent-3 {
+  color: #FF1744 !important;
+}
+.red-text.text-accent-4 {
+  color: #D50000 !important;
+}
+
