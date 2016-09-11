@@ -2071,6 +2071,11 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+a {
+  color: #039be5;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
 /* Position setting
    ======================================================================== */
 .left {
@@ -2195,7 +2200,7 @@ pre {
   overflow-y: scroll;
 }
 
-/* Table Setting
+/* !!!Table Setting
    ======================================================================= */
 table, th, td {
   border: none;
@@ -2227,7 +2232,7 @@ table.center td, th{
   text-align: center;
 }
 
-/* Navbar setting
+/* !!!Navbar setting
    ===================================================================== */
 nav {
   color: #FFF;
@@ -2266,14 +2271,13 @@ nav ul a {
 nav ul a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
-nav.logo {
-  position: absolute;
-  padding: 0;
+nav .logo {
+  display: inline-block;
+  padding: 4px 20px;
   font-size: 20px;
-  float: left;
-  left: 20px;
+  overflow: hidden;
 }
-nav.logo img {
+nav .logo img {
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -2285,8 +2289,55 @@ nav.logo img {
 }
 .navbar-fixed nav {
   position: fixed;
+  top: 0;
 }
 
+/* Button Setting
+   ========================================================================= */
+.btn, .btn-large {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #ff5252;
+  color: #FFF;
+  /*add click affect*/
+  transition-duration: .2s;
+  position: relative;
+}
+/*add click affect*/
+.btn:after,
+.btn-large:after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  padding-left: 100%;
+  opacity: 0;
+  transition: all .8s ease-out 0.1s;
+}
+.btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.btn:hover, 
+.btn-large:hover {
+  transition: box-shadow 1s;
+  opacity: 0.75; 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn {
+  padding: 0 20px;
+}
+.btn
 
 
 
