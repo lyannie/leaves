@@ -2064,8 +2064,236 @@ th {
 }
 
 html {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* Position setting
+   ======================================================================== */
+.left {
+  float: left;
+}
+.center {
+  float: center;
+}
+.right {
+  float: right;
+}
+/* heading setting
+   ======================================================================== */
+html {
+  font-family: Calibri,"Microsoft YaHei";
+  line-height: 1.4285714;
+}	
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.1;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-weight: inherit;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 54px;
+}
+h3 {
+  font-size: 48px;
+}
+h4 {
+  font-size: 42px;
+}
+h5 {
+  font-size: 36px;
+}
+h6 {
+  font-size: 24px;
+}
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: 600;
+}
+small {
+  font-size: 75%;
+}
+.thin {
+  font-weight: 300;
+}
+/* paragraph set
+   ======================================================================== */
+p {
+  font-size: 18px;
+  line-height: 1;
+  text-indent: 2em;
+  margin: 20px;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* List Setting
+   ======================================================================= */
+ul {
+  list-style-type: none;
+}
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+ul ol,
+ul ul,
+ol ol,
+ol ul {
+  margin-bottom: 10px;
+}
+dt, dd {
+  line-height: 1.4285714;
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0px;
+}
+
+/* Code Setting
+   ====================================================================== */
+code, kbd, pre, samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+code, pre {
+  padding: 10px 20px;
+  font-size: 90%;
+  background-color: #EEE;
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  line-height: 1.2;
+}
+pre {
+  display: block;
+  word-bread: break-all;
+  word-wrap: break-word;
+}
+.pre-scoll {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+/* Table Setting
+   ======================================================================= */
+table, th, td {
+  border: none;
+}
+table {
+  width: 100%;
+  display: table;
+}
+thead {
+  border-bottom: 1px solid #D0D0D0;
+}
+td, th {
+  padding: 15px 5px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+}
+table.bordered > thead > tr,
+table.bordered > tbody > tr {
+  border-bottom: 1px solid #D0D0D0;
+}
+table.scriped > tbody > tr:nth-of-type(odd) {
+  background-color: #F1F1F1;
+}
+table.highlight > tbody > tr:hover {
+  background-color: #F1F1F1;
+}
+table.center td, th{
+  text-align: center;
+}
+
+/* Navbar setting
+   ===================================================================== */
+nav {
+  color: #FFF;
+  background-color: #EE6E73;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+nav a {
+  color: #FFF;
+  text-decoration: none;
+
+}
+nav.nav-wrapper {
+  height: 100%;
+  position: relative;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  transition: background-color .5s;
+  padding: 0;
+  display: inline-block; 
+  float: left;
+}
+nav ul li.active {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+nav ul a {
+  transition: background-color .5s;
+  display: inline-block;
+  padding: 0 15px;
+}
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+nav.logo {
+  position: absolute;
+  padding: 0;
+  font-size: 20px;
+  float: left;
+  left: 20px;
+}
+nav.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.navbar-fixed {
+  position: relative;
+  height: 56px;
+  z-index: 998;
+}
+.navbar-fixed nav {
+  position: fixed;
+}
+
+
+
+
+
+
+
+
 
 
 
