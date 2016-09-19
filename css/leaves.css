@@ -2369,7 +2369,6 @@ nav .logo img {
    ============================================================== */
 .container {
   width: 100%;
-  max-width: 1280px;
   margin: 0 auto;
 }
 .row {
@@ -2387,18 +2386,16 @@ nav .logo img {
   min-height: 1px;
   padding:  0;
   margin: 0;
+  margin-bottom: 20px;
   box-sizing: border-box;
   text-align: center;
-
 }
-
 .row .col.s1 {
   width: 8.3333333333%;
-/*  margin-left: auto;
+  margin-left: auto;
   left: auto;
-  right: auto;*/
+  right: auto;
 }
-
 .row .col.s2 {
   width: 16.666666667%;
   margin-left: auto;
@@ -2407,33 +2404,63 @@ nav .logo img {
 }
 .row .col.s3 {
   width: 25%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s4 {
   width: 33.333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s5 {
   width: 41.666666667%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s6 {
   width: 50%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s7 {
   width: 58.33333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s8 {
   width: 66.666666667%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s9 {
   width: 75%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s10 {
   width: 83.33333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s11 {
   width: 91.666666667%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 .row .col.s12 {
   width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
 }
 /*control float left and right
   without this setting, the position won't change
