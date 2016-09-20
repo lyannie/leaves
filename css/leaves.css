@@ -2578,10 +2578,39 @@ nav .logo img {
   margin-left: 100%;
 }
 
+/* article setting
+   ==================================================================== */
+article {
+  width: 90%;
+  margin: 20px auto;
+  overflow: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article .title {
+  font-size: 36px;
+  text-align: center;
+}
+article img {
+  display: inline-block;
+}
+article .article-text {
+  padding:20px;
+}
+article.vertical img {
+  width: 100%;
+}
+article.horizontal img {
+  width: 40%;
+  vertical-align: top;
+}
+article.horizontal .article-text {
+  width: 59%;  /*??when width:60%; the text will move to the next row*/
+  display: inline-block;
+}
 
 footer {
 	width: 100%;
-	color: #444;
 	text-align: center;
 }
 
