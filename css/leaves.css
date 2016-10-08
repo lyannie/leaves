@@ -2111,6 +2111,7 @@ a {
 /* heading setting
    ======================================================================== */
 html {
+  font-size: 16px;
   font-family: Calibri,"Microsoft YaHei";
   line-height: 1.4285714;
 }	
@@ -2122,22 +2123,29 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight: inherit;
 }
 h1 {
-  font-size: 60px;
+  font-size: 3.75rem;   /*60px*/
+  margin: 2rem 0 1.8rem 0;
 }
 h2 {
-  font-size: 54px;
+  font-size: 3.375rem;  /*54px*/
+  margin: 1.8rem 0 1.75rem;
 }
 h3 {
-  font-size: 48px;
+  font-size: 3rem;      /*48px*/
+  margin: 1.625rem 0 1.5rem 0;
+
 }
 h4 {
-  font-size: 42px;
+  font-size: 2.625rem;  /*42px*/
+  margin: 1.5rem 0 1.375rem 0;
 }
 h5 {
-  font-size: 36px;
+  font-size: 2.25rem;   /*36px*/
+  margin: 1.375rem 0 1.25rem;
 }
 h6 {
-  font-size: 24px;
+  font-size: 1.5rem;    /*24px*/
+  margin: 1.25rem 0 1rem 0;
 }
 em {
   font-style: italic;
@@ -2577,7 +2585,9 @@ nav .logo img {
 .row .col.offset-s12 {
   margin-left: 100%;
 }
-
+.row .no-bottom {
+  margin-bottom: 0px;
+}
 /* article setting
    ==================================================================== */
 article {
@@ -2608,6 +2618,25 @@ article.horizontal .article-text {
   width: 59%;  /*??when width:60%; the text will move to the next row*/
   display: inline-block;
 }
+
+/* Bar setting
+   ========================================================================= */
+/*bar h5*/
+.bar {
+  height: 84px;  /*5.25rem*/
+  border-radius: 42px; 
+}
+/*bar-s h6*/
+.bar-s {
+  height: 64px;     /*4rem*/
+  border-radius: 32px;
+}
+/*bar-l h2*/
+.bar-l {
+  height: 108px;  /*6.75rem*/
+  border-radius: 54px;
+}
+
 
 footer {
 	width: 100%;
