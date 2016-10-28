@@ -7,20 +7,20 @@
 </head>
 <body>
 	<ul>
-    <li>无序列表信息1</li>
-    <li>无序列表信息2</li>
-    <li>无序列表信息3</li>
-</ul>
-<ol>
-    <li>有序列表信息1</li>
-    <li>有序列表信息2</li>
-    <li>有序列表信息3</li>
-</ol>
-<dl>
-    <dt>定义列表标题</dt>
-    <dd>定义列表信息1</dd>
-    <dd>定义列表信息2</dd>
-</dl>
+	    <li>无序列表信息1</li>
+	    <li>无序列表信息2</li>
+	    <li>无序列表信息3</li>
+	</ul>
+	<ol>
+	    <li>有序列表信息1</li>
+	    <li>有序列表信息2</li>
+	    <li>有序列表信息3</li>
+	</ol>
+	<dl>
+	    <dt>定义列表标题</dt>
+	    <dd>定义列表信息1</dd>
+	    <dd>定义列表信息2</dd>
+	</dl>
 	<code>printf("Hello,world");</code>
 	<pre class="pre-scoll">
 		<ol>
@@ -61,9 +61,11 @@
 	        </tr>
 	    </tbody>
 	</table>
-	<div class="navbar-fixed"> 
-	 	<nav class="purple lighten-1">
-	 		<div class="nav-wrapper">
+	<!-- <div class="navbar-fixed">  -->
+	<div class="container">
+		<div class="row">
+	 	<nav class="purple lighten-1 col s6">
+	 		<div class="nav-wrapper ">
 		 		<a class="logo right" href="##">
 		 			<img src="img/bird1.jpg">
 		 		</a>
@@ -73,29 +75,86 @@
 		 		</ul>
 	 		</div>
 	 	</nav>
+	 	</div>
 	</div>
+	<!-- </div> -->
 	<button>悟空 戴荃</button>
-	<a href="##" class="btn">悟空 戴荃</a>
-	<table class="center">
-	    <thead>
-	    	<tr>
-		        <th>表格标题</th>
-		        <th>表格标题</th>
-		        <th>表格标题</th>
-	      </tr>
-	    </thead>
-	    <tbody>
-	        <tr>
-		        <td>表格单元格</td>
-		        <td>表格单元格</td>
-		        <td>表格单元格</td>
-	        </tr>
-	        <tr>
-		        <td>表格单元格</td>
-		        <td>表格单元格</td>
-		        <td>表格单元格</td>
-	        </tr>
-	    </tbody>
-	</table>
+	<a href="##" class="btn btn-disabled ">悟空 戴荃</a>
+	<a href="##" class="btn btn-large btn-hoverable btn-wave">悟空 戴荃</a>
+	
+		<table class="center">
+		    <thead>
+		    	<tr>
+			        <th>表格标题</th>
+			        <th>表格标题</th>
+			        <th>表格标题</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		        <tr>
+			        <td>表格单元格</td>
+			        <td>表格单元格</td>
+		        </tr>
+		        <tr>
+			        <td>表格单元格</td>
+			        <td>表格单元格</td>
+			        <td>表格单元格</td>
+		        </tr>
+		    </tbody>
+		</table>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col s1 amber">col-1</div> 
+ 			<div class="col s1 amber">col-1</div> 
+ 			<div class="col s1 amber">col-1</div> 
+ 			<div class="col s1">col-1</div> 
+ 			<div class="col s1">col-1</div> 
+ 			<div class="col s1">col-1</div> 	
+		</div>
+		<div class="row">
+			<div class="col s2">col-12</div> 
+ 			<div class="col s2">col-22</div> 
+ 			<div class="col s2">col-32</div> 
+ 			<div class="col s2">col-42</div> 
+ 			<div class="col s2">col-52</div> 
+		</div>
+		<div class="row">
+			<div class="col s7 push-s5" style="background-color:pink">this is s7</div>
+			<div class="col s5 pull-s7" style="background-color:yellow">this is s5</div>
+		</div>
+		<div class="row">
+			<div class="col s12" style="background-color:pink">this is s12</div>
+			<div class="col s6 offset-s6" style="background-color:yellow">this is s6</div>
+		</div>
+	</div>
+	<article class="vertical">
+		<img src="img/bird1.jpg">
+		<div class="article-text">
+			<p class="title">Annie</p>
+			<p>wosodgagljongkljl;laopgjakdjhdocnlkgja;gogjlakj</p>
+		</div>
+	</article>
+	<article class="horizontal">
+		<img class="right" src="img/bird1.jpg">
+		<div class="left article-text">
+			<h1 class="title">Annie&benben</h1>
+			<p>wosodgagljongkljl;laopgjakdjhdocnlkgja;gogjlakj</p>
+		</div>
+	</article>
+	<div class="container">
+		<div class="row">
+			<div class="bar-s col s8 push-s2 blue no-bottom">
+				<h6 class="text-center white-text">当前节点数：5</h6>
+			</div>
+			<div class="bar col s8 push-s2 yellow no-bottom">
+				<h5 class="text-center white-text">当前最快速度：10m/s</h5>
+			</div>
+			<div class="bar-l col s8 push-s2 green no-bottom">
+				<h2 class="text-enter">Hello,world</h2>
+			</div>
+			
+		</div>
+	</div>		
 </body>
 </html>
