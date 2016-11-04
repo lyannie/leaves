@@ -2093,7 +2093,7 @@ html {
   box-sizing: inherit;
 }
 a {
-  color: #039be5;
+  color: #000;/*#039be5*/
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -2107,6 +2107,9 @@ a {
 }
 .right {
   float: right;
+}
+.center-align {
+  text-align: center;
 }
 /* heading setting
    ======================================================================== */
@@ -2396,7 +2399,10 @@ nav .logo img {
   margin: 0;
   margin-bottom: 20px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: center;  
+  /* there is a bug here,all the text in the col will be center
+   *  so at the list-group, I set them text-align:right;
+   */
 }
 .row .col.s1 {
   width: 8.3333333333%;
@@ -2635,6 +2641,42 @@ article.horizontal .article-text {
 .bar-l {
   height: 108px;  /*6.75rem*/
   border-radius: 54px;
+}
+
+/* List Group setting
+   ========================================================================= */
+.list-group {
+  border:2px solid #e0e0e0;
+  border-radius: 2px;
+  text-align: left !important;
+/*  because of the .row.col set the text-align:center*/
+} 
+.list-group .list-header {
+  display: block;
+  line-height: 20px;
+  padding:10px 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+.list-group .list-header.large {
+  line-height: 28px;
+  font-size: 1.2em;
+}
+
+.list-group .list-item {
+  line-height: 20px;
+  padding:10px 20px;
+  border-bottom:2px solid #e0e0e0;
+}
+.list-group .list-item:last-child {
+  border-bottom: none;
+}
+.list-group a.list-item {
+  display: block;
+  transition: .25s;
+  color: #000;
+}
+.list-group a.list-item:hover {
+  background-color: #ddd;
 }
 
 
